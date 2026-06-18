@@ -2,7 +2,7 @@ export async function onRequest(context) {
   const url = new URL(context.request.url);
 
   const target =
-    "https://situated-pendant-twelve-persons.trycloudflare.com" +
+    "https://referrals-audio-buried-induction.trycloudflare.com" +
     url.pathname.replace("/api", "/api") +
     url.search;
 
